@@ -1,0 +1,22 @@
+# ==== Shared Ignore Rules ====
+.DS_Store
+*.log
+*.env
+.env.local
+.idea/
+.vscode/
+
+# ==== Backend-Specific ====
+backEnd/node_modules/
+backEnd/dist/
+backEnd/coverage/
+backEnd/.cache/
+backEnd/*.env*
+
+# ==== Frontend-Specific ====
+frontend/node_modules/
+frontend/build/
+frontend/.next/
+frontend/.svelte-kit/
+frontend/coverage/
+frontend/*.env*
